@@ -1,0 +1,28 @@
+body {
+	font-size: 0;
+	/* remove the white space between each of the columns in the middle*/
+}
+
+header, footer {
+	background-color: red;
+	width: 700px;
+	height: 70px;
+	margin: 20px 0px;
+}
+
+.column {
+	display: inline-block;
+	width: 233.3px;
+	height: 500px;
+}
+
+#left {
+	background-color: blue;
+}
+#middle {
+	background-color: green;
+}
+#right {
+	background-color: yellow;
+}
+
