@@ -1,10 +1,123 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="style.css">
 <html>
 <head>
 	<title></title>
+	<style type="text/css">
+	
+	.column {
+		display: inline-block;
+		width: 800px;
+		height: 40px;
+	}
+
+	header, footer {
+		background-color: red;
+		width: 800px;
+		height: 40px;
+	}
+
+	#left {
+		background-color: #20c8ff;
+		width: 527px;
+		height: 200px;
+		padding-right: 1px;
+		overflow: auto;
+		padding-left: 0;
+	}
+
+	#right {
+		background-color: yellow;
+		width: 255px;
+		height: 200px;
+		overflow: auto;
+		padding-right: 13px;
+	}
+
+	.leftcolumn {
+		height: 200px;
+		margin-left: 10px;
+		margin-top: 10px;
+
+	}
+
+	#orange {
+		background-color: #FFA500;
+		height: 172px;
+		width: 170px;
+		display: inline-block;
+	}
+
+	#pink {
+		background-color: #FFC0CB;
+		height: 150px;
+		width : 790px;
+		display: inline-block;
+		overflow: auto;
+		padding-right: 5px;
+	}
+
+
+	footer {
+		margin-top: -90px;
+	}
+
+	header {
+		margin-bottom: 5px;
+	}
+
+	main {
+		margin-bottom: 100px;
+	}
+
+	#purpleb {
+		width: 385px;
+		height: 125px;
+		display: inline-block;
+		background-color: #990099;
+		overflow: auto;
+	}
+
+	#greenb {
+		width: 376px;
+		height: 125px;
+		display: inline-block;
+		background-color: #00af00;
+		overflow: auto;
+		margin-left: 10px;
+	}
+
+	#purpler {
+		width: 115px;
+		height: 175px;
+		display: inline-block;
+		background-color: #990099;
+		overflow: auto;
+	}
+
+	#greenr {
+		width: 115px;
+		height: 175px;
+		display: inline-block;
+		background-color: #00af00;
+		overflow: auto;
+	}
+	</style>
 </head>
 <body>
-
+	<header></header>
+	<main>
+	<div id="left" class="column">
+		<div id="orange" class="leftcolumn"></div>
+	</div>
+	<div id="right" class="column">
+		<div id="purpler" class="leftcolumn"></div>
+		<div id="greenr" class="leftcolumn"></div>
+	</div>
+	<div id="pink" class="leftcolumn">
+		<div id="purpleb" class="leftcolumn"></div>
+		<div id="greenb" class="leftcolumn"></div>
+	</div>
+	</main>
+	<footer></footer>
 </body>
 </html>

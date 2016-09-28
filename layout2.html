@@ -1,10 +1,94 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="style.css">
 <html>
 <head>
 	<title></title>
+	<style type="text/css">
+	
+	.column {
+		display: inline-block;
+		width: 800px;
+		height: 40x;
+	}
+
+	header, footer {
+		background-color: red;
+		width: 800px;
+		height: 40px;
+	}
+
+	#left {
+		background-color: #20c8ff;
+		width: 528px;
+		height: 400px;
+		padding-right: 1px;
+		overflow: auto;
+		padding-left: 0;
+	}
+
+	#right {
+		background-color: yellow;
+		width: 266px;
+		height: 400px;
+		overflow: auto;
+	}
+
+	.leftcolumn {
+		height: 200px;
+		width: 530px;
+		margin-top: 10px;
+	}
+
+	#purple {
+		background-color: #990099;
+		height: 172px;
+		width: 170px;
+		display: inline-block;
+		margin-left: 5px;
+		}
+
+	#orange {
+		background-color: #FFA500;
+		height: 172px;
+		width: 170px;
+		display: inline-block;
+	}
+
+	#green {
+		background-color: #00af00;
+		height: 172px;
+		width : 170px;
+		display: inline-block;
+	}
+
+	#pink {
+		background-color: #FFC0CB;
+		height: 170px;
+		width : 513px;
+		display: inline-block;
+		overflow: auto;
+		margin-left: 10px;
+		margin-top: 30px;
+	}
+	footer {
+		margin-top: 1px;
+	}
+
+	header {
+		margin-bottom: 5px;
+	}
+	</style>
 </head>
 <body>
-
+	<header></header>
+	<main>
+	<div id="left" class="column">
+		<div id="purple" class="leftcolumn"></div>
+		<div id="orange" class="leftcolumn"></div>
+		<div id="green" class="leftcolumn"></div>
+		<div id="pink" class="leftcolumn"></div>
+	</div>
+	<div id="right" class="column"></div>
+	</main>
+	<footer></footer>
 </body>
 </html>

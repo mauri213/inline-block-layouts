@@ -14,15 +14,31 @@ header, footer {
 	display: inline-block;
 	width: 233.3px;
 	height: 500px;
-}
+}	
 
 #left {
 	background-color: blue;
-}
-#middle {
-	background-color: green;
+	padding-right: 182px;	
 }
 #right {
 	background-color: yellow;
+	padding-right: 50px;
 }
 
+#left #column1 {
+	width: 50px;
+	height: 50px;
+	background-color: rebeccapurple;
+}
+
+#middle #column2 {
+	width: 50px;
+	height: 50px;
+	background-color: orange;
+}
+
+#right #column3 {
+	width: 50px;
+	height: 50px;
+	background-color: green;
+}
